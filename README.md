@@ -1,2 +1,4 @@
 # PayloadsOfAllTheThings
-A collection of payloads for different vulnerabilities
+A collection of payloads for different vulnerabilities. 
+
+
