@@ -1,8 +1,6 @@
 # ![hacker](https://media.tenor.com/images/6b5ca1da98c3a9d8c9a35ac780dd412b/tenor.gif) PayloadsOfAllTheThings 
 A collection of payloads for different vulnerabilities. Download best payload lists from one repo ❤️ :)
 
-<p align="center"/><img src="https://c0.wallpaperflare.com/preview/890/81/282/data-protection-security-concept.jpg">
-
 # Payloads 
 
 List of payloads:
