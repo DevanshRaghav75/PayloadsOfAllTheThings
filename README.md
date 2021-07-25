@@ -19,6 +19,7 @@ List of payloads:
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/Code%20injection%20payloads">Code injection payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/SSJI%20injection">Server side JavaScript injection (SSJI) payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/XPATH%20injection%20payloads">XPATH injection payloads</a>
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/CSV-injection%20payloads">CSV injection payloads</a>
 
 
 
