@@ -5,7 +5,7 @@ A collection of payloads for different vulnerabilities. Download best payload li
 
 # Payloads 
 
-* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/ssti-injection_payloads">ssti-injection payloads</a>
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/ssti-injection_payloads">SSTI-injection payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/XXE%20payloads">XXE payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/XSS%20payloads">XSS payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/SSRF%20payloads">SSRF</a>
@@ -15,5 +15,7 @@ A collection of payloads for different vulnerabilities. Download best payload li
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/LDAP-injection">LDAP injection payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/File%20inclusion">File inclusion payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/Command_injection_payloads">Command injection payloads</a>
-* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/CRLF%20injection%20payloads">CRLF injection payload</a>
-
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/CRLF%20injection%20payloads">CRLF injection payloads</a>
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/Code%20injection%20payloads">Code injection payloads</a>
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/SSJI%20injection">Server side JavaScript injection (SSJI) payloads</a>
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/XPATH%20injection%20payloads">XPATH injection payloads</a>
