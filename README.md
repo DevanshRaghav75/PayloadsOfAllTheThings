@@ -8,7 +8,7 @@ List of payloads:
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/ssti-injection_payloads">SSTI-injection payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/XXE%20payloads">XXE payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/XSS%20payloads">XSS payloads</a>
-* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/SSRF%20payloads">SSRF</a>
+* <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/SSRF%20payloads">Server Side Request Forgery(SSRF)</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/SQL%20injection%20payloads">SQL injection payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/Open%20Redirect%20payloads">Open Redirect payloads</a>
 * <a href="https://github.com/DevanshRaghav75/PayloadsOfAllTheThings/tree/main/NoSQL%20injection%20payloads">NoSQL injection payloads</a>
